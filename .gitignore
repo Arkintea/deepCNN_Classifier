@@ -133,3 +133,10 @@ dmypy.json
 .vscode/
 *.jpg
 *.zip
+artifacts/prepare_base_model/base_model.h5
+artifacts/prepare_callbacks/checkpoint_dir/model.h5
+artifacts/training/model.h5
+artifacts/prepare_base_model/base_model_updated.h5
+artifacts/prepare_callbacks/tensorboard_log_dir/tb_logs_at_2023-01-05-15-54-31/train/events.out.tfevents.1672934077.AKINPELU.24252.0.v2
+artifacts/prepare_callbacks/tensorboard_log_dir/tb_logs_at_2023-01-05-16-19-17/train/events.out.tfevents.1672935560.AKINPELU.24252.1.v2
+artifacts/prepare_callbacks/tensorboard_log_dir/tb_logs_at_2023-01-05-16-19-17/validation/events.out.tfevents.1672942127.AKINPELU.24252.2.v2
