@@ -120,9 +120,18 @@ pip install -r requirements.txt
 
 ![img](https://raw.githubusercontent.com/c17hawke/FSDS_NOV_deepCNNClassifier/main/docs/images/Data%20Ingestion%402x%20(1).png)
 
+
+STEP 1: Set the env variable | Get it from dagshub -> remote tab -> mlflow tab
+
+MLFLOW_TRACKING_URI=https://dagshub.com/Arkintea/deepCNN_Classifier.mlflow \
+MLFLOW_TRACKING_USERNAME=Arkintea \
+MLFLOW_TRACKING_PASSWORD=<> \
+python script.py
+
+STEP 2: install mlflow
+
+STEP 3: Set remote URI
+
+STEP 4: Use context manager of mlflow to start run and then log metrics, params and model
+
 ## Deployment
-To setup CI/CD pipeline in heroku we need 3 information
-```
-HEROKU_EMAIL = 
-HEROKU_API_KEY = <>
-HEROKU_APP_NAME = 
