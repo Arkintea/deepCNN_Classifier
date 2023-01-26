@@ -3,7 +3,7 @@ from PIL import Image
 import tensorflow as tf
 import numpy as np
 """
-# deep Classifier project
+# Deep Classifier Project
 """
 model = tf.keras.models.load_model("model.h5")
 uploaded_file = st.file_uploader("Choose a file")
